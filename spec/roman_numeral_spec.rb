@@ -15,17 +15,5 @@ describe Integer do
         value.to_roman.should == roman_numeral
       end
     end
-
-    describe "#romanize" do
-      it "converts #{value} to #{roman_numeral}" do
-        romanize(value).should == roman_numeral
-      end
-    end
-
-    describe "#recursive_romanize" do
-      it "converts #{value} to #{roman_numeral}" do
-        recursive_romanize(value).should == roman_numeral
-      end
-    end
   end
 end
